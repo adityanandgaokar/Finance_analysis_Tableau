@@ -1,0 +1,1517 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0315.1000                               -->
+<workbook source-build='2020.4.3 (20204.21.0315.1000)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Sheet1 (clean_Database)' inline='true' name='federated.07zrg3v0bft8dd18i148k0hhzs69' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Final_Database' name='excel-direct.0bnatfi1d0kyaf16nz1pa0h97oja'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Tableau/Finance_Analysis/Final_Database.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0bnatfi1d0kyaf16nz1pa0h97oja' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:Q38:no:A1:Q38:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Date' ordinal='1' />
+            <column datatype='integer' name='Income Salary' ordinal='2' />
+            <column datatype='integer' name='Income Source 2' ordinal='3' />
+            <column datatype='integer' name='Savings Mutual funds' ordinal='4' />
+            <column datatype='integer' name='Savings Emergency Fund' ordinal='5' />
+            <column datatype='integer' name='Savings Fixed Deposit' ordinal='6' />
+            <column datatype='integer' name='Savings Liquid Cash' ordinal='7' />
+            <column datatype='integer' name='Expense House Rent' ordinal='8' />
+            <column datatype='integer' name='Expense Groceries &amp; Food' ordinal='9' />
+            <column datatype='integer' name='Expense Health' ordinal='10' />
+            <column datatype='integer' name='Expense EMIs' ordinal='11' />
+            <column datatype='integer' name='Expense Leisure' ordinal='12' />
+            <column datatype='integer' name='Expense Shopping' ordinal='13' />
+            <column datatype='integer' name='Total Savings' ordinal='14' />
+            <column datatype='integer' name='Total Income' ordinal='15' />
+            <column datatype='integer' name='Total Expense' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0bnatfi1d0kyaf16nz1pa0h97oja' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:Q38:no:A1:Q38:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='Date' ordinal='1' />
+            <column datatype='integer' name='Income Salary' ordinal='2' />
+            <column datatype='integer' name='Income Source 2' ordinal='3' />
+            <column datatype='integer' name='Savings Mutual funds' ordinal='4' />
+            <column datatype='integer' name='Savings Emergency Fund' ordinal='5' />
+            <column datatype='integer' name='Savings Fixed Deposit' ordinal='6' />
+            <column datatype='integer' name='Savings Liquid Cash' ordinal='7' />
+            <column datatype='integer' name='Expense House Rent' ordinal='8' />
+            <column datatype='integer' name='Expense Groceries &amp; Food' ordinal='9' />
+            <column datatype='integer' name='Expense Health' ordinal='10' />
+            <column datatype='integer' name='Expense EMIs' ordinal='11' />
+            <column datatype='integer' name='Expense Leisure' ordinal='12' />
+            <column datatype='integer' name='Expense Shopping' ordinal='13' />
+            <column datatype='integer' name='Total Savings' ordinal='14' />
+            <column datatype='integer' name='Total Income' ordinal='15' />
+            <column datatype='integer' name='Total Expense' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:Q38:no:A1:Q38:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income Salary</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Income Salary]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Income Salary</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Income Source 2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Income Source 2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Income Source 2</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Savings Mutual funds</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Savings Mutual funds]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Savings Mutual funds</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Savings Emergency Fund</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Savings Emergency Fund]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Savings Emergency Fund</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Savings Fixed Deposit</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Savings Fixed Deposit]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Savings Fixed Deposit</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Savings Liquid Cash</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Savings Liquid Cash]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Savings Liquid Cash</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expense House Rent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Expense House Rent]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Expense House Rent</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expense Groceries &amp; Food</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Expense Groceries &amp; Food]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Expense Groceries &amp; Food</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expense Health</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Expense Health]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Expense Health</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expense EMIs</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Expense EMIs]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Expense EMIs</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expense Leisure</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Expense Leisure]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Expense Leisure</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Expense Shopping</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Expense Shopping]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Expense Shopping</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Savings</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Savings]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total Savings</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Income</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Income]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total Income</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Expense</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Expense]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Total Expense</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='saving percent' datatype='real' name='[Calculation_1011902569747357698]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Total Savings])/SUM([Total Income])*100' />
+      </column>
+      <column caption='expense percent' datatype='real' name='[Calculation_1011902569748725763]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([Total Expense])/SUM([Total Income])*100' />
+      </column>
+      <column caption='Date1' datatype='string' name='[Date]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Expense EMIs]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Expense Groceries &amp; Food]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Expense Health]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Expense House Rent]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Expense Leisure]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Expense Shopping]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[F1]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Income Salary]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Income Source 2]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Savings Emergency Fund]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Savings Fixed Deposit]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Savings Liquid Cash]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Savings Mutual funds]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Total Expense]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Total Income]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Total Savings]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Sheet1_A5FC917D3B5941C088759C046B5E7FAE]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Sheet1_A5FC917D3B5941C088759C046B5E7FAE:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Expense EMIs]' derivation='Sum' name='[sum:Expense EMIs:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Expense Groceries &amp; Food]' derivation='Sum' name='[sum:Expense Groceries &amp; Food:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Expense Health]' derivation='Sum' name='[sum:Expense Health:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Expense House Rent]' derivation='Sum' name='[sum:Expense House Rent:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Expense Leisure]' derivation='Sum' name='[sum:Expense Leisure:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Expense Shopping]' derivation='Sum' name='[sum:Expense Shopping:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[F1]' derivation='Sum' name='[sum:F1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Income Salary]' derivation='Sum' name='[sum:Income Salary:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Income Source 2]' derivation='Sum' name='[sum:Income Source 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Savings Emergency Fund]' derivation='Sum' name='[sum:Savings Emergency Fund:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Savings Fixed Deposit]' derivation='Sum' name='[sum:Savings Fixed Deposit:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Savings Liquid Cash]' derivation='Sum' name='[sum:Savings Liquid Cash:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Savings Mutual funds]' derivation='Sum' name='[sum:Savings Mutual funds:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Expense]' derivation='Sum' name='[sum:Total Expense:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Income]' derivation='Sum' name='[sum:Total Income:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Total Savings]' derivation='Sum' name='[sum:Total Savings:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1011902569747357698]' derivation='User' name='[usr:Calculation_1011902569747357698:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1011902569748725763]' derivation='User' name='[usr:Calculation_1011902569748725763:qk]' pivot='key' type='quantitative' />
+      <group caption='Action (Date1)' hidden='true' name='[Action (Date1)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Date]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense Leisure:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[usr:Calculation_1011902569747357698:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk]:1&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Income Salary:qk]&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense Shopping:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense Groceries &amp; Food:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Savings Emergency Fund:qk]&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[__tableau_internal_object_id__].[cnt:Sheet1_A5FC917D3B5941C088759C046B5E7FAE:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Savings Fixed Deposit:qk]&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense Health:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Savings Liquid Cash:qk]&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Income Source 2:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Expense:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[usr:Calculation_1011902569748725763:qk]&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense House Rent:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Savings:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:F1:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Savings Mutual funds:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense EMIs:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Germany&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_A5FC917D3B5941C088759C046B5E7FAE'>
+            <properties context=''>
+              <relation connection='excel-direct.0bnatfi1d0kyaf16nz1pa0h97oja' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:Q38:no:A1:Q38:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='Date' ordinal='1' />
+                  <column datatype='integer' name='Income Salary' ordinal='2' />
+                  <column datatype='integer' name='Income Source 2' ordinal='3' />
+                  <column datatype='integer' name='Savings Mutual funds' ordinal='4' />
+                  <column datatype='integer' name='Savings Emergency Fund' ordinal='5' />
+                  <column datatype='integer' name='Savings Fixed Deposit' ordinal='6' />
+                  <column datatype='integer' name='Savings Liquid Cash' ordinal='7' />
+                  <column datatype='integer' name='Expense House Rent' ordinal='8' />
+                  <column datatype='integer' name='Expense Groceries &amp; Food' ordinal='9' />
+                  <column datatype='integer' name='Expense Health' ordinal='10' />
+                  <column datatype='integer' name='Expense EMIs' ordinal='11' />
+                  <column datatype='integer' name='Expense Leisure' ordinal='12' />
+                  <column datatype='integer' name='Expense Shopping' ordinal='13' />
+                  <column datatype='integer' name='Total Savings' ordinal='14' />
+                  <column datatype='integer' name='Total Income' ordinal='15' />
+                  <column datatype='integer' name='Total Expense' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Expenses' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Measure Names' />
+        <param name='target' value='Expenses' />
+      </command>
+    </action>
+    <action caption='Filter 1 (generated)' name='[Action2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Date' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Date'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (clean_Database)' name='federated.07zrg3v0bft8dd18i148k0hhzs69' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07zrg3v0bft8dd18i148k0hhzs69'>
+            <column caption='Date1' datatype='string' name='[Date]' role='dimension' type='nominal' />
+            <column-instance column='[Date]' derivation='None' name='[none:Date:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='5' />
+            <format attr='cell-w' value='80' />
+            <format attr='cell-h' value='20' />
+            <format attr='cell' value='20' />
+            <format attr='cell-q' value='100' />
+            <format attr='color' value='#ffffff' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='subtotal' value='#ffffff' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='color' scope='rows' value='#ffffff' />
+            <format attr='color' scope='cols' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.07zrg3v0bft8dd18i148k0hhzs69].[none:Date:nk]</cols>
+      </table>
+      <simple-id uuid='{EAD3286C-6578-4133-9BCC-31F5C837B980}' />
+    </worksheet>
+    <worksheet name='Expenses'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (clean_Database)' name='federated.07zrg3v0bft8dd18i148k0hhzs69' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07zrg3v0bft8dd18i148k0hhzs69'>
+            <column caption='Date1' datatype='string' name='[Date]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Expense EMIs]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Expense Groceries &amp; Food]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Expense Health]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Expense House Rent]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Expense Leisure]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Expense Shopping]' role='measure' type='quantitative' />
+            <column-instance column='[Expense EMIs]' derivation='Sum' name='[sum:Expense EMIs:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Expense Groceries &amp; Food]' derivation='Sum' name='[sum:Expense Groceries &amp; Food:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Expense Health]' derivation='Sum' name='[sum:Expense Health:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Expense House Rent]' derivation='Sum' name='[sum:Expense House Rent:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Expense Leisure]' derivation='Sum' name='[sum:Expense Leisure:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Expense Shopping]' derivation='Sum' name='[sum:Expense Shopping:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense EMIs:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense Groceries &amp; Food:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense Health:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense House Rent:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense Leisure:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense Shopping:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense EMIs:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense Groceries &amp; Food:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense Health:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense House Rent:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense Leisure:qk]&quot;</bucket>
+              <bucket>&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Expense Shopping:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Action (Date1)]'>
+            <groupfilter function='level-members' level='[Date]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]</column>
+            <column>[federated.07zrg3v0bft8dd18i148k0hhzs69].[Action (Date1)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='286' />
+            <format attr='height' value='193' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+              <text column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Multiple Values]' />
+              <text column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{3E50C8E0-4325-45BF-AD84-C21B0FDB3161}' />
+    </worksheet>
+    <worksheet name='Savings'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Savings</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (clean_Database)' name='federated.07zrg3v0bft8dd18i148k0hhzs69' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07zrg3v0bft8dd18i148k0hhzs69'>
+            <column caption='Date1' datatype='string' name='[Date]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Savings Emergency Fund]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Savings Fixed Deposit]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Savings Liquid Cash]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Savings Mutual funds]' role='measure' type='quantitative' />
+            <column-instance column='[Savings Emergency Fund]' derivation='Sum' name='[sum:Savings Emergency Fund:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Savings Fixed Deposit]' derivation='Sum' name='[sum:Savings Fixed Deposit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Savings Liquid Cash]' derivation='Sum' name='[sum:Savings Liquid Cash:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Savings Mutual funds]' derivation='Sum' name='[sum:Savings Mutual funds:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Savings Emergency Fund:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Savings Fixed Deposit:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Savings Liquid Cash:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Savings Mutual funds:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Action (Date1)]'>
+            <groupfilter function='level-members' level='[Date]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]</column>
+            <column>[federated.07zrg3v0bft8dd18i148k0hhzs69].[Action (Date1)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='198' />
+            <format attr='height' value='190' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+              <size column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Multiple Values]' />
+              <text column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Multiple Values]' />
+              <text column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{AB03D3DF-EF1F-40D2-A1E6-FFA796072896}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Incomes</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (clean_Database)' name='federated.07zrg3v0bft8dd18i148k0hhzs69' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07zrg3v0bft8dd18i148k0hhzs69'>
+            <column caption='Date1' datatype='string' name='[Date]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Income Salary]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Income Source 2]' role='measure' type='quantitative' />
+            <column-instance column='[Income Salary]' derivation='Sum' name='[sum:Income Salary:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Income Source 2]' derivation='Sum' name='[sum:Income Source 2:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Income Salary:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Income Source 2:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Action (Date1)]'>
+            <groupfilter function='level-members' level='[Date]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]</column>
+            <column>[federated.07zrg3v0bft8dd18i148k0hhzs69].[Action (Date1)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='208' />
+            <format attr='width' value='188' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+              <size column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Multiple Values]' />
+              <text column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Multiple Values]' />
+              <text column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{EFFDAE30-5391-405C-BA4A-9654E147C5A5}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (clean_Database)' name='federated.07zrg3v0bft8dd18i148k0hhzs69' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07zrg3v0bft8dd18i148k0hhzs69'>
+            <column caption='Date1' datatype='string' name='[Date]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total Expense]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Income]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Savings]' role='measure' type='quantitative' />
+            <column-instance column='[Total Expense]' derivation='Sum' name='[sum:Total Expense:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Income]' derivation='Sum' name='[sum:Total Income:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Savings]' derivation='Sum' name='[sum:Total Savings:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Expense:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Savings:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Action (Date1)]'>
+            <groupfilter function='level-members' level='[Date]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]</column>
+            <column>[federated.07zrg3v0bft8dd18i148k0hhzs69].[Action (Date1)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='321' />
+            <format attr='height' value='215' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+              <size column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Multiple Values]' />
+              <text column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Multiple Values]' />
+              <text column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{719D1FE6-3FE8-400C-8540-542B45E27785}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{DC16E686-9675-4ED2-BC58-E154BF97B616}' />
+    </worksheet>
+    <worksheet name='Total income, total expenses vs date'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (clean_Database)' name='federated.07zrg3v0bft8dd18i148k0hhzs69' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07zrg3v0bft8dd18i148k0hhzs69'>
+            <column caption='expense percent' datatype='real' name='[Calculation_1011902569748725763]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Total Expense])/SUM([Total Income])*100' />
+            </column>
+            <column caption='Date1' datatype='string' name='[Date]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total Expense]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Income]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='None' name='[none:Date:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Income]' derivation='Sum' name='[sum:Total Income:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1011902569748725763]' derivation='User' name='[usr:Calculation_1011902569748725763:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Action (Date1)]'>
+            <groupfilter function='level-members' level='[Date]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.07zrg3v0bft8dd18i148k0hhzs69].[Action (Date1)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.07zrg3v0bft8dd18i148k0hhzs69].[usr:Calculation_1011902569748725763:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk]' value='c#,##0,K;-#,##0,K' />
+            <format attr='text-align' field='[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk]' value='center' />
+            <format attr='vertical-align' field='[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk]' value='center' />
+            <format attr='font-weight' field='[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk]' value='bold' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='10' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.07zrg3v0bft8dd18i148k0hhzs69].[usr:Calculation_1011902569748725763:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+              <text column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[usr:Calculation_1011902569748725763:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk] + [federated.07zrg3v0bft8dd18i148k0hhzs69].[usr:Calculation_1011902569748725763:qk])</rows>
+        <cols>[federated.07zrg3v0bft8dd18i148k0hhzs69].[none:Date:nk]</cols>
+      </table>
+      <simple-id uuid='{AD8BFA89-EAF2-4EDE-B67B-AB1EEA79B109}' />
+    </worksheet>
+    <worksheet name='Total income, total savings vs date'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (clean_Database)' name='federated.07zrg3v0bft8dd18i148k0hhzs69' />
+          </datasources>
+          <datasource-dependencies datasource='federated.07zrg3v0bft8dd18i148k0hhzs69'>
+            <column caption='saving percent' datatype='real' name='[Calculation_1011902569747357698]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='SUM([Total Savings])/SUM([Total Income])*100' />
+            </column>
+            <column caption='Date1' datatype='string' name='[Date]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total Income]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Savings]' role='measure' type='quantitative' />
+            <column-instance column='[Date]' derivation='None' name='[none:Date:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Income]' derivation='Sum' name='[sum:Total Income:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1011902569747357698]' derivation='User' name='[usr:Calculation_1011902569747357698:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Action (Date1)]'>
+            <groupfilter function='level-members' level='[Date]' user:ui-action-filter='[Action2]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.07zrg3v0bft8dd18i148k0hhzs69].[Action (Date1)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='width' field='[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk]' value='60' />
+            <encoding attr='space' class='0' field='[federated.07zrg3v0bft8dd18i148k0hhzs69].[usr:Calculation_1011902569747357698:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk]' value='*#,##0,K;-#,##0,K' />
+            <format attr='vertical-align' field='[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk]' value='bottom' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' field='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' value='8' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+              <text column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.07zrg3v0bft8dd18i148k0hhzs69].[usr:Calculation_1011902569747357698:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' />
+              <text column='[federated.07zrg3v0bft8dd18i148k0hhzs69].[usr:Calculation_1011902569747357698:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.07zrg3v0bft8dd18i148k0hhzs69].[sum:Total Income:qk] + [federated.07zrg3v0bft8dd18i148k0hhzs69].[usr:Calculation_1011902569747357698:qk])</rows>
+        <cols>[federated.07zrg3v0bft8dd18i148k0hhzs69].[none:Date:nk]</cols>
+      </table>
+      <simple-id uuid='{E28C72DB-EF77-4B8F-80AF-237674AE400B}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97154' id='8' param='horz' w='98382' x='809' y='1423'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='97154' id='6' w='77553' x='809' y='1423'>
+              <zone h='17260' id='3' name='Date' w='32457' x='809' y='1423'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48577' id='5' name='Total income, total expenses vs date' w='45096' x='33266' y='1423'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48577' id='10' name='Savings' w='18642' x='37820' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48577' id='12' name='Sheet 6' w='21900' x='56462' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='48577' id='13' name='Total income, total savings vs date' w='37011' x='809' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='31317' id='14' name='Expenses' w='32457' x='809' y='18683'>
+                <layout-cache fixed-size-w='334' type-h='fixed' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' fixed-size='206' h='97154' id='18' is-fixed='true' w='20829' x='78362' y='1423'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='53915' id='7' param='vert' w='20829' x='78362' y='1423'>
+                <zone _.fcp.SetMembershipControl.false...type='size' _.fcp.SetMembershipControl.true...type-v2='size' h='8185' id='11' name='Savings' pane-specification-id='0' param='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Multiple Values]' w='20829' x='78362' y='1423'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='11743' id='9' name='Total income, total expenses vs date' pane-specification-id='2' param='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' w='20829' x='78362' y='9608'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='43239' id='19' param='vert' w='20829' x='78362' y='55338'>
+                <zone fixed-size='394' h='43239' id='15' is-fixed='true' name='Sheet 7' w='20829' x='78362' y='55338'>
+                  <layout-cache fixed-size-w='321' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1900' minheight='1900' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='17' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97790' id='16' param='vert' w='98848' x='576' y='1105'>
+                <zone fixed-size='88' h='12017' id='3' is-fixed='true' name='Date' w='43665' x='576' y='1105'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='249' h='32182' id='10' is-fixed='true' name='Savings' w='23434' x='44241' y='1105'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='size' _.fcp.SetMembershipControl.true...type-v2='size' h='6354' id='11' name='Savings' pane-specification-id='0' param='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Multiple Values]' w='11519' x='87905' y='10221'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='249' h='32182' id='12' is-fixed='true' name='Sheet 6' w='20230' x='67675' y='1105'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36878' id='14' is-fixed='true' name='Expenses' w='22678' x='576' y='13122'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='36878' id='15' is-fixed='true' name='Sheet 7' w='20987' x='23254' y='13122'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='65608' id='5' is-fixed='true' name='Total income, total expenses vs date' w='43664' x='44241' y='33287'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='9116' id='9' name='Total income, total expenses vs date' pane-specification-id='2' param='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' w='11519' x='87905' y='1105'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48895' id='13' is-fixed='true' name='Total income, total savings vs date' w='43665' x='576' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{95EFBECB-DF32-49A4-A9FD-8B891627772B}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Total income, total savings vs date'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8C235CAE-BAE5-47D0-A6F2-F4C9F60B2804}' />
+    </window>
+    <window class='worksheet' name='Total income, total expenses vs date'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7E169C45-48ED-41C7-A6B6-63AA5ADC03FF}' />
+    </window>
+    <window class='worksheet' name='Date'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B849A4F6-2F15-4913-9DA7-120B9CCAAF0C}' />
+    </window>
+    <window class='worksheet' name='Expenses'>
+      <cards>
+        <edge name='left'>
+          <strip size='216'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{1E31708B-3CFF-4F42-9454-3D3316804246}' />
+    </window>
+    <window class='worksheet' name='Savings'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Multiple Values]' type='size' />
+            <card pane-specification-id='0' param='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A01AEAE8-4C4B-460B-928A-E7B0B5232A4B}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Multiple Values]' type='size' />
+            <card pane-specification-id='0' param='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{43D84A9D-DCCB-45AA-BAA3-54A8CA41AEBD}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.07zrg3v0bft8dd18i148k0hhzs69].[:Measure Names]' type='color' />
+            <card pane-specification-id='0' param='[federated.07zrg3v0bft8dd18i148k0hhzs69].[Multiple Values]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{443026FB-60AC-4674-8A3B-A2ECB32F82A0}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Date' />
+        <viewpoint name='Expenses' />
+        <viewpoint name='Savings' />
+        <viewpoint name='Sheet 6' />
+        <viewpoint name='Sheet 7' />
+        <viewpoint name='Total income, total expenses vs date'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total income, total savings vs date'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{2D8595D9-08DF-4E48-8751-3FA4A169002B}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{42986BA1-B637-4DDB-BE21-D3375078F15F}' />
+    </window>
+  </windows>
+</workbook>
